@@ -637,6 +637,8 @@ int main(void)
        			if(pauseTWRReports + 1000 <= portGetTickCnt())
        			{
        				pauseTWRReports = 0;
+							
+							pauseTWRReports = 1;
        			}
        		}
        	}
